@@ -12,3 +12,5 @@ for i in range(len(lines)): # percorre todos os índices da lista "lines" em loo
 text = '\n'.join(lines)
 
 pyperclip.copy(text)
+
+''''''
