@@ -9,6 +9,7 @@ def displayInventory(inventory):
         item_total += v
     print("Total number of items: " + str(item_total))
 
+
 print("---------------------------------")
 
 
@@ -25,5 +26,3 @@ addToInventory(inv, dragonLoot)
 
 displayInventory(stuff)
 displayInventory(inv)
-
-

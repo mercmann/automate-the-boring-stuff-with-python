@@ -10,6 +10,7 @@ def printBoard(board):
     print('-+-+-')
     print(board['low-L'] + '|' + board['low-M'] + '|' + board['low-R'])
 
+
 turn = 'X'
 for i in range(9):
     printBoard(theBoard)
